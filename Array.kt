@@ -1,10 +1,10 @@
 fun main() {
 
 
-    val cars = arrayOf("Volvo", "BMW", "Ford", "Mazda")
+    val name = arrayOf("Saksham", "Nitesh", "Himanshu", "Nicolas Bown")
     
-    for (x in cars) {
+    for (i in name) {
     
-        print(" $x")
+        print(" $i")
     }
   }
