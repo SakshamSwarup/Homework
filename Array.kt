@@ -10,7 +10,7 @@ fun main() {
     }
     
     println()
-    println(name[0])
+    println(name[0]) // Array Indexes
     println(name[1])
     println(name[2])
     println(name[3])    
