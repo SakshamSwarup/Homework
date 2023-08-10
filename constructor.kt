@@ -1,8 +1,8 @@
 fun main (){
 
-val s1 = Student("Saksham", 20, "M 56 ")
-s1.success()
+val s1 = Student("Saksham", 20, "M 56 ")  //Primary Constructor
 
+s1.success()
 
 }
 
