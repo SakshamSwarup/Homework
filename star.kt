@@ -3,10 +3,6 @@ fun main(){
     println()
     star2()
     star3()
-    
-    
-
-
 }
 
 fun star1(){
