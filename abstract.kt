@@ -7,7 +7,6 @@ fun main() {
     
 }
 
-
 abstract class Saksham{   
     fun sumofmembers(){
         System.out.println("hello sum")
