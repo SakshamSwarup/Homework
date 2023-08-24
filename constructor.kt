@@ -1,8 +1,10 @@
+import kotlin.math.max
 fun main (){
 
 val s1 = Student("Saksham", 20, "M 56 ")  //Primary Constructor
 
 s1.success()
+
 
 }
 
