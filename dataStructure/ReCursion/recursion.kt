@@ -1,16 +1,19 @@
 fun main() {
     
-     downto5(5)
-     println(sum_NaturalNum(5))
+    //  downto5(5)
+    //  println(sum_NaturalNum(5))
 
-    val a = 0
-    val b = 1
-    val n = 7
+    // val a = 0
+    // val b = 1
+    // val n = 7
     
-    println(a) // Print the first number in the series
-    println(b) // Print the second number in the series
+    // println(a) // Print the first number in the series
+    // println(b) // Print the second number in the series
     
-    fibonacciNum(a, b, n - 2) // Subtract 2 from n to account for the first two numbers
+    // fibonacciNum(a, b, n - 2) // Subtract 2 from n to account for the first two numbers
+    println(calPower(2 , 5))
+
+
 
 }
 
@@ -42,4 +45,20 @@ fun fibonacciNum(a: Int, b: Int, n: Int) {
     fibonacciNum(b, c, n - 1)
 }
 
+
+fun calPower(x:Int , y:Int):Int{
+    if(y==0){
+        return 1
+
+    }
+     if (x==0){
+        return 0
+    }
+
+    val slackHeight1 = calPower(x, y-1)
+    val finalHeight = x * slackHeight1
+    
+    return finalHeight
+
+}
 
