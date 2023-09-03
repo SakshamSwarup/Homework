@@ -31,8 +31,8 @@ class praveen : Saksham1,Saksham(){
 
     override fun multiplication() { }
 
-    override fun sumofmembers(){
-        System.out.print("function call from praveen sumofmembers")
+    // fun sumofmembers(){
+    //     System.out.print("function call from praveen sumofmembers")
 
-    }
+    // }
 }
