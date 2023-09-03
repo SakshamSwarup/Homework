@@ -2,17 +2,17 @@ fun main (){
 
 println("This is a Fibonacci Number. ")
 
-var a = 0
-var b = 1
-var sum = 0
+var x = 0
+var y = 1
+var c = 0
 
-for (i in 0..12){
+for (i in 0..20){
 
-a = b
-b = sum
-sum = a + b
+    c = x + y
+    y = x
+    print(" $x")
+    x = c
 
-print(" $b")
 
 
 }
