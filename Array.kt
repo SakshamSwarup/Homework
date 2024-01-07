@@ -11,9 +11,15 @@ fun main() {
     
     println()
     println(name[0]) // Array Indexes
-    println(name[1])
-    println(name[2])
-    println(name[3])    
+    println(name[1])   
 
+var name1 = arrayOf<String>("saksham","Himanshu",".saksham2","Rajeev","IDk")
 
+for (friends in name1){
+    if (name1.isEmpty()){
+        println("You have no friends")
+    }else{
+        println(friends)
+
+}
 }
