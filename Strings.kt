@@ -7,6 +7,6 @@ var i = str.length
 println(str)
 println("My String length is : $i")
 
-
+println("This is test")
 
 }
