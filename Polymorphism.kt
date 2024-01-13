@@ -1,27 +1,28 @@
+/*
+
+There are two types of Polymorphisms 
+1. Compile Time Polymorohim. 
+2. Runtime Time Polymorphism.
+*/
+import java.math.BigDecimal
 fun main() {
 
-
-    poly()
-    poly(6)
-    poly(6,7,"This PolyMorphism")
-
-
-} 
-
-fun poly(){
-
-println("This is Polymorhism Example 1.") 
-
+var calc1 = calc()
+ calc1.add(BigDecimal("5.7"), BigDecimal("6.6")) 
 }
 
-fun poly(a: Int) {
-    println("This is Polymorphism Example 2.")
-}
+/*
+Compile time polymorphism. This also know as Method of overloading.
+ */
 
-fun poly(a: Int, b: Int, c: String) {
-    println("This is Polymorphism Example 3")
-}
+ class calc()  {
+    fun add(a:Int , b:Int){
+        print(a+b)    
+    }
+    fun add(a:BigDecimal ,b:BigDecimal ){
+
+        print(a+b)
+    }
 
 
-
-
+ }
